@@ -116,10 +116,10 @@ label {
 #mascota-form textarea {
     margin-bottom: 20px;
     width: 100%;
-    /* Ocupa todo el ancho del contenedor */
     height: 100px;
-    /* Ajusta la altura según sea necesario */
     margin-top: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #mascota-form button {
