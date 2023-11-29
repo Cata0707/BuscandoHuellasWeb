@@ -5,7 +5,7 @@
         "genero": "Hembra",
         "foto": "zoe.jpg",
         "fechaHora": "2023-11-02T14:30",
-        "ubicacion": "Barrio Cabero, Rio Tercero",
+        "ubicacion": "Ambrosetti 373, Barrio Cabero, Rio Tercero",
         "dueño": "Hector Cattaneo",
         "telefonoDueño": "3571531454"
     },
@@ -15,99 +15,99 @@
         "genero": "Hembra",
         "foto": "tita.jpg",
         "fechaHora": "2023-11-03T15:00",
-        "ubicacion": "Lugar de desaparición ",
+        "ubicacion": "Laprida al 2300, Barrio Montegrande, Río Tercero",
         "dueño": "Nahuel Fernández",
-        "telefonoDueño": "987-654-3210"
+        "telefonoDueño": "3571689541"
     },
     {
         "nombre": "Pantera",
         "descripcion": "Gato todo negro, pelo largo. No se deja agarrar",
         "genero": "Macho",
         "foto": "pantera.jpg",
-        "fechaHora": "2023-11-03T15:00",
-        "ubicacion": "Lugar de desaparición ",
+        "fechaHora": "2023-11-11T17:00",
+        "ubicacion": "Plumerillo 416, Barrio Escuela, Río Tercero",
         "dueño": "Juliana Echevarria",
-        "telefonoDueño": "987-654-3210"
+        "telefonoDueño": "3571464512"
     },
     {
         "nombre": "Ema",
         "descripcion": "Caniche pequeño, blanca, lleva puesto un collar rojo con pañuelo",
         "genero": "Hembra",
         "foto": "ema.jpg",
-        "fechaHora": "2023-11-03T15:00",
-        "ubicacion": "Lugar de desaparición ",
+        "fechaHora": "2023-11-05T11:24",
+        "ubicacion": "Catamarca al 600, Embalse",
         "dueño": "Martín Roma",
-        "telefonoDueño": "987-654-3210"
+        "telefonoDueño": "3571316875"
     },
     {
         "nombre": "Simón",
         "descripcion": "Gato atigrado marrón con lineas negras, super manso y se deja agarrar facilmente",
         "genero": "Macho",
         "foto": "simon.jpg",
-        "fechaHora": "2023-11-03T15:00",
-        "ubicacion": "Lugar de desaparición ",
-        "dueño": "Dueño ",
-        "telefonoDueño": "987-654-3210"
+        "fechaHora": "2023-11-26T18:30",
+        "ubicacion": "Libertad al 400, Almafuerte",
+        "dueño": "Florencia Boaglio",
+        "telefonoDueño": "3571523481"
     },
     {
         "nombre": "Muny",
         "descripcion": "Gata negra y blanco, en el pecho tiene una mancha negra con forma de corazón",
         "genero": "Hembra",
         "foto": "muny.jpg",
-        "fechaHora": "2023-11-03T15:00",
-        "ubicacion": "Lugar de desaparición ",
-        "dueño": "Dueño ",
-        "telefonoDueño": "987-654-3210"
+        "fechaHora": "2023-10-03T15:10",
+        "ubicacion": "17 de agosto al 700, Río Tercero",
+        "dueño": "Gino Fernandez",
+        "telefonoDueño": "3571667899"
     },
     {
         "nombre": "Lola",
         "descripcion": "Mestiza, pelo largo color marrón en la cabeza y las patas, negro en el lomo",
         "genero": "Hembra",
         "foto": "lola.jpg",
-        "fechaHora": "2023-11-03T15:00",
-        "ubicacion": "Lugar de desaparición ",
-        "dueño": "Dueño ",
-        "telefonoDueño": "987-654-3210"
+        "fechaHora": "2023-09-16T13:00",
+        "ubicacion": "San Martin 952, Almafuerte",
+        "dueño": "Facundo Moreno",
+        "telefonoDueño": "3571665037"
     },
     {
         "nombre": "Max",
         "descripcion": "Rotwailer, tiene 4 años, le gusta jugar con niños y otros animales",
         "genero": "Macho",
         "foto": "max.jpg",
-        "fechaHora": "2023-11-03T15:00",
-        "ubicacion": "Lugar de desaparición ",
-        "dueño": "Dueño ",
-        "telefonoDueño": "987-654-3210"
+        "fechaHora": "2023-10-22T21:00",
+        "ubicacion": "Balcarse al 800, Río Tercero",
+        "dueño": "Franco Frette",
+        "telefonoDueño": "3571426955"
     },
     {
         "nombre": "Luna",
         "descripcion": "Toda negra con una mancha en el pecho blanca, y en la punta de las patas. Cariñosa, buena con otros animales y le encantan los niños.",
         "genero": "Hembra",
         "foto": "luna.jpg",
-        "fechaHora": "2023-11-03T15:00",
-        "ubicacion": "Lugar de desaparición ",
-        "dueño": "Dueño ",
-        "telefonoDueño": "987-654-3210"
+        "fechaHora": "2023-11-15T14:35",
+        "ubicacion": "Yatasto 750, Barrio Villa Zoila",
+        "dueño": "Gisela Cattaneo",
+        "telefonoDueño": "3571564284"
     },
     {
         "nombre": "Narcisa",
         "descripcion": "Tamaño grande, flaca y orejas grandes, color marrón con blanco en el pecho. Está con tratamiento veterinario",
         "genero": "Hembra",
         "foto": "narcisa.jpg",
-        "fechaHora": "2023-11-03T15:00",
-        "ubicacion": "Lugar de desaparición ",
+        "fechaHora": "2023-11-18T20:00",
+        "ubicacion": "B.Roldan 654, Barrio Escuela, Río Tercero",
         "dueño": "Dueño ",
-        "telefonoDueño": "987-654-3210"
+        "telefonoDueño": "3516621489"
     },
     {
         "nombre": "Candela",
         "descripcion": "Golden de 9 años, color marrón clarito, camina despacio por un problema en la cadera.",
         "genero": "Hembra",
         "foto": "candela.jpg",
-        "fechaHora": "2023-11-03T15:00",
-        "ubicacion": "Lugar de desaparición3",
+        "fechaHora": "2023-10-07T09:45",
+        "ubicacion": "Montevideo al 500, Almafuerte",
         "dueño": "Mariana Ludueña",
-        "telefonoDueño": "987-654-3210"
+        "telefonoDueño": "3571467528"
     },
 
     {
@@ -116,8 +116,8 @@
         "genero": "Macho",
         "foto": "ciro.jpg",
         "fechaHora": "2023-11-10T21:00",
-        "ubicacion": "calle granadero baigorria al 500, barrio belgrano, río tercero ",
+        "ubicacion": "Granadero Baigorria 305, Embalse",
         "dueño": "Dueño ",
-        "telefonoDueño": "987-654-3210"
+        "telefonoDueño": "3571329954"
     }
 ]
