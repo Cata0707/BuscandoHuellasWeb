@@ -1,15 +1,5 @@
 [
     {
-        "nombre": "Zoe",
-        "descripcion": "Mestiza, barbuchita blanca con manchas marrones y negras",
-        "genero": "Hembra",
-        "foto": "zoe.jpg",
-        "fechaHora": "2023-11-02T14:30",
-        "ubicacion": "Ambrosetti 373, Barrio Cabero, Rio Tercero",
-        "dueño": "Hector Cattaneo",
-        "telefonoDueño": "3571531454"
-    },
-    {
         "nombre": "Tita",
         "descripcion": "Cruza manto negro, petiza, le encantan los niños",
         "genero": "Hembra",
@@ -60,6 +50,26 @@
         "telefonoDueño": "3571667899"
     },
     {
+        "nombre": "Zoe",
+        "descripcion": "Mestiza, barbuchita blanca con manchas marrones y negras",
+        "genero": "Hembra",
+        "foto": "zoe.jpg",
+        "fechaHora": "2023-11-02T14:30",
+        "ubicacion": "Ambrosetti 373, Barrio Cabero, Rio Tercero",
+        "dueño": "Hector Cattaneo",
+        "telefonoDueño": "3571531454"
+    },
+    {
+        "nombre": "Teo",
+        "descripcion": "Gato blanco con manchas marrones claras y oscuras, muy arisco.",
+        "genero": "Macho",
+        "foto": "teo.jpg",
+        "fechaHora": "2023-10-11T15:50",
+        "ubicacion": "Garibaldi 438, Río tercero",
+        "dueño": "Malena Ferreyra",
+        "telefonoDueño": "3571664299"
+    },
+    {
         "nombre": "Lola",
         "descripcion": "Mestiza, pelo largo color marrón en la cabeza y las patas, negro en el lomo",
         "genero": "Hembra",
@@ -80,6 +90,16 @@
         "telefonoDueño": "3571426955"
     },
     {
+        "nombre": "María",
+        "descripcion": "Gata color marrón atigrada, gorda y muy dócil, se deja agarrar y hacer cariño",
+        "genero": "Hembra",
+        "foto": "maria.jpg",
+        "fechaHora": "2023-10-02T10:30",
+        "ubicacion": "Caceros 2030, Embalse",
+        "dueño": "Mariano Depetris",
+        "telefonoDueño": "3571418277"
+    },
+    {
         "nombre": "Luna",
         "descripcion": "Toda negra con una mancha en el pecho blanca, y en la punta de las patas. Cariñosa, buena con otros animales y le encantan los niños.",
         "genero": "Hembra",
@@ -88,6 +108,16 @@
         "ubicacion": "Yatasto 750, Barrio Villa Zoila",
         "dueño": "Gisela Cattaneo",
         "telefonoDueño": "3571564284"
+    },
+    {
+        "nombre": "Lila",
+        "descripcion": "Mestiza, color marrón chocolate, tiene collar con identificación y teléfono",
+        "genero": "Hembra",
+        "foto": "lila.jpg",
+        "fechaHora": "2023-11-17T14:30",
+        "ubicacion": "Almirante Brown 360, Barrio Pinares, Almafuerte",
+        "dueño": "Lucía Callovi",
+        "telefonoDueño": "3571662344"
     },
     {
         "nombre": "Narcisa",
@@ -109,7 +139,16 @@
         "dueño": "Mariana Ludueña",
         "telefonoDueño": "3571467528"
     },
-
+    {
+        "nombre": "Milanesa",
+        "descripcion": "Gato blanco con marrón clarito, tiene 5 meses, no sabe volver solo, no sale nunca.",
+        "genero": "Macho",
+        "foto": "milanesa.jpg",
+        "fechaHora": "2023-10-29T19:28",
+        "ubicacion": "Rivadavia 623, Río Tercero",
+        "dueño": "Lucila Maldonado",
+        "telefonoDueño": "3571531454"
+    },
     {
         "nombre": "Ciro",
         "descripcion": "Blanco con manchas marrones",
@@ -117,7 +156,27 @@
         "foto": "ciro.jpg",
         "fechaHora": "2023-11-10T21:00",
         "ubicacion": "Granadero Baigorria 305, Embalse",
-        "dueño": "Dueño ",
+        "dueño": "Darío Ripanti",
         "telefonoDueño": "3571329954"
+    },
+    {
+        "nombre": "Tito",
+        "descripcion": "Labrador blanco, muy juguetón, tiene collar negro con identificador",
+        "genero": "Macho",
+        "foto": "tito.jpg",
+        "fechaHora": "2023-11-14T22:00",
+        "ubicacion": "Carlos Vega 610, Barrio Cabero, Río Tercero",
+        "dueño": "Micaela Barbetta",
+        "telefonoDueño": "3571554133"
+    },
+    {
+        "nombre": "Mora",
+        "descripcion": "Gata tricolor, mayormente con blanco en el pecho y panza, y está embarazada",
+        "genero": "Hembra",
+        "foto": "mora.jpg",
+        "fechaHora": "2023-11-02T14:30",
+        "ubicacion": "Ambrosetti 373, Barrio Cabero, Rio Tercero",
+        "dueño": "Hector Cattaneo",
+        "telefonoDueño": "3571531454"
     }
 ]
