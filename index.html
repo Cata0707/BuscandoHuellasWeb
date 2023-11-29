@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buscando Huellas</title>
+    
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="imagenes/buscando huellas + logo- blanco_01.png"
+        alt="Logo Buscando Huellas"/>
+      <div id="enlaces-container">
+        <div id="enlaces">
+          <a href="index.html">Inicio</a>
+          <a href="nosotros.html">Nosotros</a>
+          <a href="#" onclick="mostrarFormularioAdopcion()">Quiero Adoptar</a>       
+    </header>
+
+    <main>
+      <section id="resultados"></section>
+      <section id="formulario">
+        <h2>Datos de la mascota</h2>
+        <form id="mascota-form" enctype="multipart/form-data">
+          <div id="nombre-genero-container">
+            <div id="nombre-container">
+              <label for="nombre">Nombre de la Mascota:</label>
+              <input type="text" id="nombre" name="nombre" required />
+            </div>
+            <div id="genero-container">
+              <label for="genero" class="titulo">Género:</label>
+              <select id="genero" name="genero" required>
+                <option value="Macho">Macho</option>
+                <option value="Hembra">Hembra</option>
+              </select>
+            </div>
+          </div>
+
+          <div id="descripcion-foto-container">
+            <div id="descripcion-container">
+              <label for="descripcion" class="subtitulo">Descripción:</label>
+              <textarea id="descripcion" name="descripcion" required></textarea>
+            </div>
+            <div id="foto-container">
+              <label for="foto">Foto de la Mascota:</label>
+              <input
+                type="file"
+                id="foto"
+                name="foto"
+                accept="image/*"
+                required
+              />
+            </div>
+          </div>
+
+          <div id="fecha-ubicacion-container">
+            <div id="fechaHora-container">
+              <label for="fechaHora" class="titulo"
+                >Fecha y hora desaparición:</label
+              >
+              <input
+                type="datetime-local"
+                id="fechaHora"
+                name="fechaHora"
+                required
+              />
+            </div>
+            <div id="ubicacion-container">
+              <label for="ubicacion" class="titulo"
+                >Lugar de desaparición:</label
+              >
+              <input type="text" id="ubicacion" name="ubicacion" required />
+            </div>
+          </div>
+
+          <h2>Datos del dueño</h2>
+
+          <div id="dueño-telefono-container">
+            <div id="dueño-container">
+              <label for="dueño" class="titulo">Nombre y Apellido:</label>
+              <input type="text" id="dueño" name="dueño" required />
+            </div>
+            <div id="telefonoDueño-container">
+              <label for="telefonoDueño" class="titulo"
+                >Teléfono de contacto:</label
+              >
+              <input type="tel" id="telefonoDueño" name="telefonoDueño" />
+            </div>
+          </div>
+
+          <button type="submit" onclick="agregarEntrada()">Agregar</button>
+        </form>
+      </section>
+    </main>
+    
+    <footer>
+      <div class="redes-container">
+        <h3>Nuestras Redes Sociales</h3>
+
+        <div class="redes-sociales">
+          <a href="https://facebook.com/catacattaneo" target="_blank" rel="noopener noreferrer"><img src="/imagenes/fb.png" alt="Facebook" width="30" height="30"></a>
+          <a href="https://twitter.com/giselacattaneo" target="_blank" rel="noopener noreferrer"><img src="/imagenes/twitter.png" alt="Twitter" width="30" height="30"></a>
+          <a href="https://instagram.com/_brujalunar_" target="_blank" rel="noopener noreferrer"><img src="/imagenes/insta.png" alt="Instagram"width="30" height="30"></a>
+          <a href="https://pinterest.com/catalinaa66" target="_blank" rel="noopener noreferrer"><img src="/imagenes/pinterest.png" alt="Pinterest"width="30" height="30"></a>
+          <a href="https://wa.me/3571564284" target="_blank" rel="noopener noreferrer"><img src="/imagenes/wpp.png" alt="WhatsApp"width="30" height="30"></a>
+        </div>
+      </div>
+      
+      <p>&copy; Buscando Huellas</p>
+    </footer>
+  
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="cerrarFormularioAdopcion()">&times;</span>
+          <h2>¡Adopta un Nuevo Amigo!</h2>
+                <p>Si estás interesado en adoptar un nuevo integrante en la familia, llena este formulario y nos pondremos en contacto.</p>
+          <form id="formularioAdopcionForm">
+            <label for="nombreAdoptante">Nombre y Apellido:</label>
+            <input
+              type="text"
+              id="nombreAdoptante"
+              name="nombreAdoptante"
+              required
+            />
+    
+            <label for="edadAdoptante">Edad:</label>
+            <input type="number" id="edadAdoptante" name="edadAdoptante" required />
+    
+            <label for="tipoVivienda">Tipo de Vivienda:</label>
+            <select id="tipoVivienda" class="opciones" name="tipoVivienda" required>
+              <option value="casa">Casa</option>
+              <option value="departamento">Departamento</option>
+              <option value="campo">Campo</option>
+            </select>
+    
+            <label for="ninosHogar">¿Hay niños en el hogar?:</label>
+            <select id="ninosHogar" class="opciones" name="ninosHogar" required>
+              <option value="si">Sí</option>
+              <option value="no">No</option>
+            </select>
+    
+            <label for="tienePatio">¿Tienes Patio?:</label>
+            <select id="tienePatio" class="opciones" name="tienePatio" required>
+              <option value="si">Sí</option>
+              <option value="no">No</option>
+            </select>
+    
+            <label for="veterinario">¿Cuentas con Veterinario?:</label>
+            <select id="veterinario" class="opciones" name="veterinario" required>
+              <option value="si">Sí</option>
+              <option value="no">No</option>
+            </select>
+
+            <label for="animalAdoptar">¿Qué animal deseas adoptar?</label>
+            <select id="animalAdoptar" class="opciones" name="animalAdoptar" required>
+                <option value="perro">Perro</option>
+                <option value="gato">Gato</option>
+             </select>
+
+            <label for="otrasMascotas">¿Hay otras mascotas en el hogar?:</label>
+            <select id="otrasMascotas" class="opciones" name="otrasMascotas" required>
+                <option value="si">Sí</option>
+                <option value="no">No</option>
+            </select>
+    
+            <label for="trabaja">¿Trabajas?:</label>
+            <select id="trabaja" class="opciones" name="trabaja" required>
+              <option value="si">Sí</option>
+              <option value="no">No</option>
+            </select>
+    
+            <div id="horasDeTrabajo" style="display: none">
+              <label for="horasTrabajo">Seleccione las horas de trabajo:</label>
+              <select id="horasTrabajo" class="opciones" name="horasTrabajo">
+                <option value="menosDe4">Menos de 4 horas por día</option>
+                <option value="4Horas">4 horas por día</option>
+                <option value="hasta8Horas">Hasta 8 horas por día</option>
+                <option value="masDe8Horas">Más de 8 horas por día</option>
+              </select>
+            </div>
+    
+            <label for="movilidad">¿Tienes Movilidad?:</label>
+            <select id="tienesMovilidad" class="opciones" name="tienesMovilidad" required>
+              <option value="si">Sí</option>
+              <option value="no">No</option>
+            </select>
+    
+            <div id="tipoDeMovilidad" style="display: none">
+              <label for="tipoMovilidad">Seleccione el tipo de movilidad:</label>
+              <select id="tipoMovilidad" class="opciones" name="tipoMovilidad">
+                <option value="moto">Moto</option>
+                <option value="auto">Auto</option>
+                <option value="otros">Otros</option>
+              </select>
+            </div>
+    
+            <label for="razonAdopcion">Motivo de la Adopción:</label>
+            <textarea id="razonAdopcion" name="razonAdopcion" required></textarea>
+    
+            <label for="telefonoAdoptante">Teléfono de Contacto:</label>
+            <input
+              type="tel"
+              id="telefonoAdoptante"
+              name="telefonoAdoptante"
+              required
+            />
+    
+            <label for="emailAdoptante">Correo Electrónico:</label>
+            <input
+              type="email"
+              id="emailAdoptante"
+              name="emailAdoptante"
+              required
+            />
+            <button type="button" onclick="enviarFormularioAdopcion()">Enviar</button>
+          </form>
+          
+      </div>
+      <div id="modalConfirmacion" class="modalConfirmacion">
+        <div class="modal-content">
+          <span class="close" onclick="cerrarFormularioAdopcion()">&times;</span>
+          <img src="https://media.giphy.com/media/tf9jjMcO77YzV4YPwE/giphy.gif" width="70" height="70" alt="Animated Checkmark" />
+          <h2>Formulario Enviado Exitosamente</h2>
+        </div>
+      </div>
+      
+    <script src="script-general.js"></script>
+  </body>
+</html>

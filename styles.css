@@ -1,0 +1,391 @@
+body {
+    background-image: url("imagenes/img09.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 130px;
+    background-color: rgba(33, 70, 105, 0.9);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-block: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+header img {
+    max-height: 100px;
+    /* Ajusta el tamaño de la imagen del logo según sea necesario */
+    width: auto;
+    margin-bottom: 10px;
+    /* Espacio entre la imagen y los enlaces */
+    margin: auto;
+}
+
+#enlaces-container {
+    display: flex;
+    justify-content: center;
+    /* Centra los enlaces horizontalmente */
+}
+
+#enlaces {
+    display: flex;
+    flex-direction: row;
+    /* Alinea los enlaces en una fila */
+
+}
+
+#enlaces a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px;
+    /* Espacio entre los enlaces */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    /* Sombreado */
+    transition: transform 0.3s ease;
+    /* Agrega una transición suave */
+}
+
+#enlaces a:hover {
+    transform: scale(1.2);
+    /* Aumenta el tamaño al pasar el mouse */
+}
+
+main {
+    margin: 20px;
+}
+
+h2 {
+    font-size: 25px;
+    color: #214669;
+}
+
+#formulario {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 3px solid #214669;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+}
+
+label {
+    width: 45%;
+    margin-top: 10px;
+    gap: 20px;
+    text-align: right;
+
+}
+
+#genero-container {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+#foto-container {
+    width: 45%;
+}
+
+#fechaHora-container {
+    width: 25%;
+}
+
+#mascota-form input {
+    width: 98%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#mascota-form textarea {
+    margin-bottom: 20px;
+    width: 100%;
+    /* Ocupa todo el ancho del contenedor */
+    height: 100px;
+    /* Ajusta la altura según sea necesario */
+    margin-top: 10px;
+}
+
+#mascota-form button {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 10px;
+    background-color: #214669;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.entrada {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    max-width: 250px;
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.entrada:hover {
+    transform: scale(1.2);
+}
+
+.entrada h3 {
+    text-align: center;
+    color: #214669;
+    font-size: 25px;
+}
+
+.entrada p {
+    margin: 7px 0;
+
+}
+
+.entrada img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: block;
+}
+
+.descripcion-entrada {
+    text-align: center;
+    color: #214669;
+}
+
+
+
+#resultados {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+    max-width: 100vw;
+
+}
+
+#resultados h2 {
+    order: -1;
+    background-color: rgba(182, 192, 201, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    font-size: 25px;
+    text-align: left;
+    margin-bottom: 20px;
+    max-width: 30%;
+}
+
+footer {
+    background-color: rgba(33, 70, 105, 0.9);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.color-1 {
+    background-color: #e3ada1;
+}
+
+.color-2 {
+    background-color: #c9bdb3;
+}
+
+.color-3 {
+    background-color: #beb6e1;
+}
+
+#nosotros {
+    background-color: rgba(255, 253, 253, 0.9);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.nosotros-container {
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+#nosotros h2 {
+    font-style: italic;
+    color: #214669;
+    margin-bottom: 40px;
+}
+
+#nosotros p {
+    font-size: 16px;
+    color: #333;
+    line-height: 2;
+    margin-bottom: 30px;
+}
+
+#formularioAdopcionForm {
+    width: 100%;
+    margin: auto;
+}
+
+#formularioAdopcionForm label {
+    display: block;
+    margin-top: 10px;
+    width: 80%;
+    gap: 20px;
+    text-align: left;
+    font: bold 16px/1.5 'Arial', sans-serif;
+}
+
+#formularioAdopcionForm select {
+    width: 101%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#formularioAdopcionForm textarea,
+#formularioAdopcionForm input {
+    width: 97%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#formularioAdopcionForm button {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 30px;
+    background-color: #214669;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Estilos para el modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.modal-content {
+    background-color: #f5f5f5;
+    width: 500px;
+    margin: 100px auto;
+    padding: 30px;
+    border: 3px solid #214669;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 600px;
+}
+
+.modal-content h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.modal-content p {
+    text-align: center;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+.close {
+    color: #214669;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Añadir este estilo para el modal de confirmación */
+#modalConfirmacion {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    border: 3px solid #214669;
+    padding-top: 60px;
+  }
+  
+
+  #modalConfirmacion .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 3px solid #214669;
+    width: 80%;
+  }
+
+  #modalConfirmacion .close {
+    color: #214669;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  #modalConfirmacion .close:hover,
+  #modalConfirmacion .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.redes-container {
+    text-align: center;
+}
+.redes-container h3 {
+    margin-top: 7px;
+    margin-bottom: 20px; /* Ajusta la separación entre el título y los íconos */
+}
+.redes-sociales a {
+    margin-right: 10px; /* Ajusta la separación entre los íconos */
+}

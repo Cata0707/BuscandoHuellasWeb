@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscando Huellas</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">        
+</head>
+
+<body>
+    <header>
+        <img src="imagenes/buscando huellas + logo- blanco_01.png" alt="Logo Buscando Huellas">
+        <div id="enlaces-container">
+            <div id="enlaces">
+                <a href="index.html">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="#" onclick="mostrarFormularioAdopcion()">Quiero Adoptar</a>    
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="nosotros">
+            <div class="nosotros-container">
+                <h2><u>Así empezó esta historia...</u></h2>
+                <p><em>
+                    Hola, somos Malena y Sofía, las mentes detrás de <b>"Buscando Huellas"</b>
+                    <br>
+                    ¿Cómo llegamos aquí? Bueno, es una historia de amistad, amor por los
+                    animales y algunas huellas perdidas en el camino.
+                    Desde que éramos chicas, los perros y gatos han sido nuestra debilidad.
+                    Crecimos rodeados de peludos rescatados y mascotas adoptadas.
+                    <br>
+                    Un día, paseando a nuestros propios perros rescatados, nos dimos
+                    cuenta de la triste realidad de tantos peludos sin hogar y dueños
+                    buscando desesperadamente a sus mascotas. ¡Era la hora de hacer algo!
+                    <br>
+                    Así nació la idea de "Buscando Huellas". No solo queríamos ayudar
+                    a los peludos a encontrar su camino de regreso a casa, sino también
+                    emparejar a los sin hogar con familias que necesitaban un poco de
+                    amor peludo en sus vidas.
+                    <br>
+                    <b>"Buscando Huellas"</b> no es solo una página para nosotras. 
+                    Es nuestra manera de darle un giro positivo al destino de muchos
+                    peludos y familias. 
+                    <br>
+                    Con cada huella que encontramos, sentimos que estamos cambiando el mundo, 
+                    una patita a la vez. 
+                    <br>
+                    <br>
+                    <b>Únete a nuestra aventura, ¡porque aquí cada huella cuenta y cada corazón 
+                    late más fuerte 
+                    <br>
+                    gracias al increíble lazo entre humanos y 
+                    peludos!</b> 🐾
+                </em></p>
+            </div>
+        </section>        
+    </main>
+
+    <footer>
+      <div class="redes-container">
+        <h3>Nuestras Redes Sociales</h3>
+
+        <div class="redes-sociales">
+          <a href="https://facebook.com/catacattaneo" target="_blank" rel="noopener noreferrer"><img src="/imagenes/fb.png" alt="Facebook" width="30" height="30"></a>
+          <a href="https://twitter.com/giselacattaneo" target="_blank" rel="noopener noreferrer"><img src="/imagenes/twitter.png" alt="Twitter" width="30" height="30"></a>
+          <a href="https://instagram.com/_brujalunar_" target="_blank" rel="noopener noreferrer"><img src="/imagenes/insta.png" alt="Instagram"width="30" height="30"></a>
+          <a href="https://pinterest.com/catalinaa66" target="_blank" rel="noopener noreferrer"><img src="/imagenes/pinterest.png" alt="Pinterest"width="30" height="30"></a>
+          <a href="https://wa.me/3571564284" target="_blank" rel="noopener noreferrer"><img src="/imagenes/wpp.png" alt="WhatsApp"width="30" height="30"></a>
+        </div>
+      </div>
+        <p>&copy; Buscando Huellas</p>
+    </footer>
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="cerrarFormularioAdopcion()">&times;</span>
+          <h2>¡Adopta un Nuevo Amigo!</h2>
+                <p>Si estás interesado en adoptar un nuevo integrante en la familia, llena este formulario y nos pondremos en contacto.</p>
+          <form id="formularioAdopcionForm">
+            <label for="nombreAdoptante">Nombre y Apellido:</label>
+            <input
+              type="text"
+              id="nombreAdoptante"
+              name="nombreAdoptante"
+              required
+            />
+    
+            <label for="edadAdoptante">Edad:</label>
+            <input type="number" id="edadAdoptante" name="edadAdoptante" required />
+    
+            <label for="tipoVivienda">Tipo de Vivienda:</label>
+            <select id="tipoVivienda" class="opciones" name="tipoVivienda" required>
+              <option value="casa">Casa</option>
+              <option value="departamento">Departamento</option>
+              <option value="campo">Campo</option>
+            </select>
+    
+            <label for="ninosHogar">¿Hay niños en el hogar?:</label>
+            <select id="ninosHogar" class="opciones" name="ninosHogar" required>
+              <option value="si">Sí</option>
+              <option value="no">No</option>
+            </select>
+    
+            <label for="tienePatio">¿Tienes Patio?:</label>
+            <select id="tienePatio" class="opciones" name="tienePatio" required>
+              <option value="si">Sí</option>
+              <option value="no">No</option>
+            </select>
+    
+            <label for="veterinario">¿Cuentas con Veterinario?:</label>
+            <select id="veterinario" class="opciones" name="veterinario" required>
+              <option value="si">Sí</option>
+              <option value="no">No</option>
+            </select>
+
+            <label for="animalAdoptar">¿Qué animal deseas adoptar?</label>
+            <select id="animalAdoptar" class="opciones" name="animalAdoptar" required>
+                <option value="perro">Perro</option>
+                <option value="gato">Gato</option>
+             </select>
+
+            <label for="otrasMascotas">¿Hay otras mascotas en el hogar?:</label>
+            <select id="otrasMascotas" class="opciones" name="otrasMascotas" required>
+                <option value="si">Sí</option>
+                <option value="no">No</option>
+            </select>
+    
+            <label for="trabaja">¿Trabajas?:</label>
+            <select id="trabaja" class="opciones" name="trabaja" required>
+              <option value="si">Sí</option>
+              <option value="no">No</option>
+            </select>
+    
+            <div id="horasDeTrabajo" style="display: none">
+              <label for="horasTrabajo">Seleccione las horas de trabajo:</label>
+              <select id="horasTrabajo" class="opciones" name="horasTrabajo">
+                <option value="menosDe4">Menos de 4 horas por día</option>
+                <option value="4Horas">4 horas por día</option>
+                <option value="hasta8Horas">Hasta 8 horas por día</option>
+                <option value="masDe8Horas">Más de 8 horas por día</option>
+              </select>
+            </div>
+    
+            <label for="movilidad">¿Tienes Movilidad?:</label>
+            <select id="tienesMovilidad" class="opciones" name="tienesMovilidad" required>
+              <option value="si">Sí</option>
+              <option value="no">No</option>
+            </select>
+    
+            <div id="tipoDeMovilidad" style="display: none">
+              <label for="tipoMovilidad">Seleccione el tipo de movilidad:</label>
+              <select id="tipoMovilidad" class="opciones" name="tipoMovilidad">
+                <option value="moto">Moto</option>
+                <option value="auto">Auto</option>
+                <option value="otros">Otros</option>
+              </select>
+            </div>
+    
+            <label for="razonAdopcion">Motivo de la Adopción:</label>
+            <textarea id="razonAdopcion" name="razonAdopcion" required></textarea>
+    
+            <label for="telefonoAdoptante">Teléfono de Contacto:</label>
+            <input
+              type="tel"
+              id="telefonoAdoptante"
+              name="telefonoAdoptante"
+              required
+            />
+    
+            <label for="emailAdoptante">Correo Electrónico:</label>
+            <input
+              type="email"
+              id="emailAdoptante"
+              name="emailAdoptante"
+              required
+            />
+            <button type="button" onclick="enviarFormularioAdopcion()">Enviar</button>
+          </form>
+          
+      </div>
+      <div id="modalConfirmacion" class="modalConfirmacion">
+        <div class="modal-content">
+          <span class="close" onclick="cerrarFormularioAdopcion()">&times;</span>
+          <img src="https://media.giphy.com/media/tf9jjMcO77YzV4YPwE/giphy.gif" width="70" height="70" alt="Animated Checkmark" />
+          <h2>Formulario Enviado Exitosamente</h2>
+        </div>
+      </div>
+    <script src="script-nosotros.js"></script>
+</body>
+</html>
+</body>
+</html>
