@@ -24,23 +24,19 @@ header {
 
 header img {
     max-height: 100px;
-    /* Ajusta el tamaño de la imagen del logo según sea necesario */
     width: auto;
     margin-bottom: 10px;
-    /* Espacio entre la imagen y los enlaces */
     margin: auto;
 }
 
 #enlaces-container {
     display: flex;
     justify-content: center;
-    /* Centra los enlaces horizontalmente */
 }
 
 #enlaces {
     display: flex;
     flex-direction: row;
-    /* Alinea los enlaces en una fila */
 
 }
 
@@ -49,16 +45,12 @@ header img {
     text-decoration: none;
     font-size: 16px;
     margin: 10px;
-    /* Espacio entre los enlaces */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
-    /* Sombreado */
     transition: transform 0.3s ease;
-    /* Agrega una transición suave */
 }
 
 #enlaces a:hover {
     transform: scale(1.2);
-    /* Aumenta el tamaño al pasar el mouse */
 }
 
 main {
@@ -341,7 +333,6 @@ footer {
     cursor: pointer;
 }
 
-/* Añadir este estilo para el modal de confirmación */
 #modalConfirmacion {
     display: none;
     position: fixed;
